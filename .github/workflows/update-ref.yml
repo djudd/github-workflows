@@ -28,6 +28,6 @@ jobs:
                     owner: context.repo.owner,
                     repo: context.repo.repo,
                     ref: 'refs/tags/test-from-workflow',
-                    sha: context.sha
+                    sha: context.sha,
                     force: true,
                   })
